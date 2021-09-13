@@ -22,13 +22,11 @@
   <header></header>
   <main class="main">
     <div class="search-field">
-      <div class="search-box">
-        <input id="input-field" class="search-field" type="text" />
-        <button type="button" class="btn btn-primary search-button" data-toggle="button" aria-pressed="false"
-          autocomplete="off" id="search-btn" onclick="loadProducts()">
-          Search
-        </button>
+      <div class="w-25 d-flex mx-auto my-5">
+        <input id="input-field" class="form-control" type="text" placeholder="Search">
+        <button id="search-btn" onclick="loadProducts()" type="button" class="btn btn-dark ms-2">Search</button>
       </div>
+      <hr>
     </div>
     <div class="row">
       <div class="col-md-9 col-lg-9 col-sm-7">
